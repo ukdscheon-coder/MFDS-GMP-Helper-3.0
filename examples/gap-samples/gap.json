@@ -1,0 +1,655 @@
+{
+  "schema": "globalregai.gap-assessment/v1",
+  "generatedAt": "2026-10-29T10:21:23.106Z",
+  "regulator": "MFDS",
+  "framework": "KR-MFDS-KGMP",
+  "rulesVersion": "2026.10.29",
+  "site": {
+    "site": "",
+    "country": "",
+    "product": "",
+    "applicant": ""
+  },
+  "conditions": {
+    "grade": 2,
+    "reviewType": "initial",
+    "sterile": true,
+    "software": false,
+    "design": true,
+    "installation": false,
+    "servicing": false
+  },
+  "qualityManual": {
+    "docNo": "QM-001",
+    "title": "Quality Manual",
+    "version": "07"
+  },
+  "readiness": 89,
+  "verdict": "major",
+  "counts": {
+    "major": 4,
+    "minor": 6,
+    "obs": 1,
+    "ofi": 0
+  },
+  "effortManDays": [
+    14.5,
+    29
+  ],
+  "clauses": {
+    "7.5.5": "conflict",
+    "4.1": "ok",
+    "4.2.1": "ok",
+    "4.2.2": "ok",
+    "4.2.3": "ok",
+    "4.2.4": "ok",
+    "4.2.5": "ok",
+    "5.1": "ok",
+    "5.2": "ok",
+    "5.3": "ok",
+    "5.4": "ok",
+    "5.5.1": "ok",
+    "5.5.2": "ok",
+    "5.5.3": "ok",
+    "5.6": "ok",
+    "6.1": "ok",
+    "6.2": "ok",
+    "6.3": "ok",
+    "6.4": "ok",
+    "7.1": "ok",
+    "7.2": "ok",
+    "7.3": "ok",
+    "7.4": "ok",
+    "7.5.1": "ok",
+    "7.5.2": "ok",
+    "7.5.6": "ok",
+    "7.5.7": "missing",
+    "7.5.8": "ok",
+    "7.5.9": "ok",
+    "7.5.10": "ok",
+    "7.5.11": "ok",
+    "7.6": "ok",
+    "8.1": "ok",
+    "8.2.1": "ok",
+    "8.2.2": "ok",
+    "8.2.3": "ok",
+    "8.2.4": "ok",
+    "8.2.5": "ok",
+    "8.2.6": "ok",
+    "8.3": "ok",
+    "8.4": "ok",
+    "8.5": "ok"
+  },
+  "koreaRequirements": {
+    "K1": {
+      "clause": "4.1",
+      "title": "Quality responsibilities with the Korean importer (licence holder)",
+      "status": "missing",
+      "ref": "KGMP [별표2] 4.1.5·7.2.3, 의료기기법 수입업자 의무 [확인 필요]"
+    },
+    "K2": {
+      "clause": "8.2.3",
+      "title": "Adverse-event reporting route for Korea",
+      "status": "generic",
+      "ref": "KGMP [별표2] 8.2.3, 의료기기법 부작용 보고 조항 [확인 필요]"
+    },
+    "K3": {
+      "clause": "8.3",
+      "title": "Recall / field action coordination for Korea",
+      "status": "missing",
+      "ref": "KGMP [별표2] 8.3.3, 의료기기법 회수 조항 [확인 필요]"
+    },
+    "K4": {
+      "clause": "7.3",
+      "title": "Change impact on the Korean licence / KGMP certificate",
+      "status": "generic",
+      "ref": "KGMP 고시 제4조(변경심사), [별표2] 7.3.9, 의료기기법 변경허가 [확인 필요]"
+    },
+    "K5": {
+      "clause": "7.5.1",
+      "title": "Korean labelling and instructions for use",
+      "status": "missing",
+      "ref": "KGMP [별표2] 7.5.1, 의료기기법 표시기재 조항 [확인 필요]"
+    },
+    "K6": {
+      "clause": "7.5.8",
+      "title": "Korean UDI (standard code)",
+      "status": "generic",
+      "ref": "KGMP [별표2] 7.5.8, 의료기기 표준코드 관련 고시 [확인 필요]"
+    },
+    "K7": {
+      "clause": "7.5.9",
+      "title": "Traceability for designated tracked devices",
+      "status": "n/a",
+      "ref": "KGMP [별표2] 7.5.9.2, 의료기기법 추적관리 조항 [확인 필요]"
+    },
+    "K8": {
+      "clause": "5.5.2",
+      "title": "Management representative and KGMP authority",
+      "status": "met",
+      "ref": "KGMP [별표2] 5.5.2"
+    },
+    "K9": {
+      "clause": "4.2.3",
+      "title": "Medical device file vs Korean product standard",
+      "status": "generic",
+      "ref": "KGMP [별표2] 4.2.3, 해설서 의료기기파일 [확인 필요]"
+    },
+    "K10": {
+      "clause": "4.2.5",
+      "title": "Electronic records and data integrity",
+      "status": "missing",
+      "ref": "KGMP [별표2] 4.2.5 (컴퓨터 시스템·전자기록) — 2026 개정 강조사항 [확인 필요]"
+    },
+    "K11": {
+      "clause": "7.3",
+      "title": "Cybersecurity for software medical devices",
+      "status": "n/a",
+      "ref": "디지털의료제품법·디지털의료기기 K-GMP, 사이버보안 가이드라인 [확인 필요]"
+    },
+    "K12": {
+      "clause": "8.2.2",
+      "title": "Korean complaints via the importer",
+      "status": "generic",
+      "ref": "KGMP [별표2] 8.2.2"
+    }
+  },
+  "findings": [
+    {
+      "id": "K-1",
+      "kind": "korea",
+      "clause": "4.1",
+      "severity": "major",
+      "title": "Korea-specific requirement missing — Quality responsibilities with the Korean importer (licence holder)",
+      "titleKo": "한국 고유 요구 누락 — 한국 수입업자(허가권자)와의 품질 책임 분담",
+      "action": "Add a Korea appendix to the existing quality agreement (notifications and deadlines, record access, MFDS audit support)",
+      "actionKo": "기존 품질협약 양식에 한국 수입업자용 부록(통보 항목·기한, 기록 제공, MFDS 실사 협조)을 추가",
+      "ref": "KGMP [별표2] 4.1.5·7.2.3, 의료기기법 수입업자 의무 [확인 필요]",
+      "effort": "M",
+      "evidence": null
+    },
+    {
+      "id": "E-7.5.5",
+      "kind": "exclusion",
+      "clause": "7.5.5",
+      "severity": "major",
+      "title": "Exclusion contradicts the product — 7.5.5 Particular requirements for sterile medical devices",
+      "titleKo": "적용제외가 제품 조건과 모순 — 7.5.5 멸균 의료기기에 대한 특별 요구사항",
+      "action": "Withdraw the exclusion and provide the procedure, or correct the audit conditions if they are wrong",
+      "actionKo": "적용제외를 철회하고 해당 절차를 마련하거나, 제품 조건이 틀렸다면 심사 조건을 수정",
+      "ref": "KGMP [별표2] 4.2.2 (적용제외 정당화)",
+      "effort": "L",
+      "evidence": "QM 4.2.2 Quality manual"
+    },
+    {
+      "id": "C-7.5.7",
+      "kind": "clause",
+      "clause": "7.5.7",
+      "severity": "major",
+      "title": "No evidence — 7.5.7 Validation of processes for sterilization and sterile barrier systems",
+      "titleKo": "근거 문서 없음 — 7.5.7 멸균과 멸균포장 프로세스의 유효성 확인",
+      "action": "Request the procedure from the site; if none exists, write one (or justify an exclusion in the QM)",
+      "actionKo": "제조소에 해당 절차를 요청하고, 없으면 절차를 작성(또는 QM 적용제외 근거를 제시)",
+      "ref": "KGMP [별표2] 7.5.7",
+      "effort": "M",
+      "evidence": null
+    },
+    {
+      "id": "K-3",
+      "kind": "korea",
+      "clause": "8.3",
+      "severity": "major",
+      "title": "Korea-specific requirement missing — Recall / field action coordination for Korea",
+      "titleKo": "한국 고유 요구 누락 — 한국 내 회수·시정조치 연계",
+      "action": "Add the Korean importer to recall notification lists and state support for the MFDS recall plan",
+      "actionKo": "회수 절차의 통보 대상에 한국 수입업자를 추가하고 MFDS 회수계획 제출 지원을 명시",
+      "ref": "KGMP [별표2] 8.3.3, 의료기기법 회수 조항 [확인 필요]",
+      "effort": "S",
+      "evidence": null
+    },
+    {
+      "id": "K-9",
+      "kind": "korea",
+      "clause": "4.2.3",
+      "severity": "minor",
+      "title": "Korea not addressed — Medical device file vs Korean product standard",
+      "titleKo": "한국 적용 미명시 — 의료기기파일 ↔ 한국 제품표준서 대응",
+      "action": "Add a \"Korean product standard cross-reference\" (licence items ↔ technical file location) to the device file index",
+      "actionKo": "의료기기파일 목차에 \"한국 제품표준서 대응표\"(허가사항 ↔ 기술문서 위치)를 추가",
+      "ref": "KGMP [별표2] 4.2.3, 해설서 의료기기파일 [확인 필요]",
+      "effort": "S",
+      "evidence": "QM-001_Quality_Manual_Rev07.docx: 4.2.3 Medical device file"
+    },
+    {
+      "id": "K-10",
+      "kind": "korea",
+      "clause": "4.2.5",
+      "severity": "minor",
+      "title": "Korea-specific requirement missing — Electronic records and data integrity",
+      "titleKo": "한국 고유 요구 누락 — 전자기록·데이터 무결성",
+      "action": "Add ALCOA+ principles, audit trail and backup frequency for electronic records to the records procedure",
+      "actionKo": "기록관리 절차에 ALCOA+ 원칙과 전자기록 감사추적·백업 주기를 추가",
+      "ref": "KGMP [별표2] 4.2.5 (컴퓨터 시스템·전자기록) — 2026 개정 강조사항 [확인 필요]",
+      "effort": "M",
+      "evidence": null
+    },
+    {
+      "id": "K-4",
+      "kind": "korea",
+      "clause": "7.3",
+      "severity": "minor",
+      "title": "Korea not addressed — Change impact on the Korean licence / KGMP certificate",
+      "titleKo": "한국 적용 미명시 — 변경 시 한국 허가·인정서 영향 평가",
+      "action": "Add \"Republic of Korea (MFDS licence / KGMP)\" to the regulatory-impact section of the change form",
+      "actionKo": "변경관리 양식의 규제 영향 평가 항목에 \"대한민국(MFDS) 허가·KGMP\"를 추가",
+      "ref": "KGMP 고시 제4조(변경심사), [별표2] 7.3.9, 의료기기법 변경허가 [확인 필요]",
+      "effort": "S",
+      "evidence": "QM-001_Quality_Manual_Rev07.docx: Procedure QP-0730 Design and Development Control; design changes per QP-0731 Design Change."
+    },
+    {
+      "id": "K-5",
+      "kind": "korea",
+      "clause": "7.5.1",
+      "severity": "minor",
+      "title": "Korea-specific requirement missing — Korean labelling and instructions for use",
+      "titleKo": "한국 고유 요구 누락 — 한국어 표시기재·첨부문서",
+      "action": "Add Korean labelling (who creates it, check against the Korean licence) to the labelling procedure",
+      "actionKo": "라벨 관리 절차에 한국어 표시(작성 주체: 제조소/수입업자, 허가사항 대조 확인)를 추가",
+      "ref": "KGMP [별표2] 7.5.1, 의료기기법 표시기재 조항 [확인 필요]",
+      "effort": "S",
+      "evidence": null
+    },
+    {
+      "id": "K-12",
+      "kind": "korea",
+      "clause": "8.2.2",
+      "severity": "minor",
+      "title": "Korea not addressed — Korean complaints via the importer",
+      "titleKo": "한국 적용 미명시 — 한국 고객불만의 수입업자 연계",
+      "action": "Add the overseas importer (incl. Korea) intake route and reply deadline to the complaint procedure",
+      "actionKo": "불만처리 절차의 접수 경로에 \"해외 수입업자(한국 포함)\" 경로와 회신 기한 추가",
+      "ref": "KGMP [별표2] 8.2.2",
+      "effort": "S",
+      "evidence": "QM-001_Quality_Manual_Rev07.docx: 8.2.2 Complaint handling"
+    },
+    {
+      "id": "K-2",
+      "kind": "korea",
+      "clause": "8.2.3",
+      "severity": "minor",
+      "title": "Korea not addressed — Adverse-event reporting route for Korea",
+      "titleKo": "한국 적용 미명시 — 한국 내 이상사례(부작용) 보고 경로",
+      "action": "Add a Republic of Korea row (MFDS, via importer, deadline) to the country table of the vigilance procedure",
+      "actionKo": "이상사례 보고 절차의 국가별 표에 대한민국(MFDS·수입업자 경유·보고 기한) 행 추가",
+      "ref": "KGMP [별표2] 8.2.3, 의료기기법 부작용 보고 조항 [확인 필요]",
+      "effort": "S",
+      "evidence": "QM-001_Quality_Manual_Rev07.docx: Procedure QP-0823 Vigilance and Adverse Event Reporting"
+    },
+    {
+      "id": "K-6",
+      "kind": "korea",
+      "clause": "7.5.8",
+      "severity": "obs",
+      "title": "Korea not addressed — Korean UDI (standard code)",
+      "titleKo": "한국 적용 미명시 — 의료기기 표준코드(UDI) — 한국",
+      "action": "Add Korea (registered by the importer) to the UDI database list in the UDI procedure",
+      "actionKo": "UDI 절차의 데이터베이스 목록에 한국(수입업자 등록)을 추가",
+      "ref": "KGMP [별표2] 7.5.8, 의료기기 표준코드 관련 고시 [확인 필요]",
+      "effort": "S",
+      "evidence": "QM-001_Quality_Manual_Rev07.docx: Procedure QP-0758 Identification, UDI and Traceability"
+    }
+  ],
+  "documents": [
+    {
+      "docNo": "FO-0540",
+      "title": "Quality Objectives",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "5.4"
+      ]
+    },
+    {
+      "docNo": "ORG-001",
+      "title": "organisation chart",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "5.5.1"
+      ]
+    },
+    {
+      "docNo": "QM-001",
+      "title": "Quality Manual",
+      "version": "07",
+      "revisionDate": "2025-03-12",
+      "clauses": [
+        "4.1",
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.2.4",
+        "4.2.5",
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.5.1",
+        "5.5.2",
+        "5.5.3",
+        "5.6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "7.1",
+        "7.2",
+        "7.3",
+        "7.4",
+        "7.5.1",
+        "7.5.2",
+        "7.5.4",
+        "7.5.6",
+        "7.5.8",
+        "7.5.9",
+        "7.5.10",
+        "7.5.11",
+        "7.6",
+        "8.1",
+        "8.2.1",
+        "8.2.2",
+        "8.2.3",
+        "8.2.4",
+        "8.2.5",
+        "8.2.6",
+        "8.3",
+        "8.4",
+        "8.5"
+      ]
+    },
+    {
+      "docNo": "QP-0423",
+      "title": "Medical Device File",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "4.2.3"
+      ]
+    },
+    {
+      "docNo": "QP-0424",
+      "title": "Lenkung von Dokumenten (Control of Documents)",
+      "version": "03",
+      "revisionDate": "2024-02-01",
+      "clauses": [
+        "4.2.4"
+      ]
+    },
+    {
+      "docNo": "QP-0425",
+      "title": "Control of Records",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "4.2.5"
+      ]
+    },
+    {
+      "docNo": "QP-0560",
+      "title": "Management Review",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "5.6"
+      ]
+    },
+    {
+      "docNo": "QP-0620",
+      "title": "Training and Competence",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "6.2"
+      ]
+    },
+    {
+      "docNo": "QP-0630",
+      "title": "Maintenance of Equipment and Infrastructure",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "6.3"
+      ]
+    },
+    {
+      "docNo": "QP-0640",
+      "title": "Cleanroom and Work Environment",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "6.4"
+      ]
+    },
+    {
+      "docNo": "QP-0704",
+      "title": "Purchasing",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "4.1",
+        "7.4"
+      ]
+    },
+    {
+      "docNo": "QP-0710",
+      "title": "Risk Management",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.1"
+      ]
+    },
+    {
+      "docNo": "QP-0720",
+      "title": "Order Processing and Contract Review",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.2"
+      ]
+    },
+    {
+      "docNo": "QP-0730",
+      "title": "Design and Development Control",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.3"
+      ]
+    },
+    {
+      "docNo": "QP-0731",
+      "title": "Design Change",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.3"
+      ]
+    },
+    {
+      "docNo": "QP-0751",
+      "title": "Production Control",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.5.1"
+      ]
+    },
+    {
+      "docNo": "QP-0752",
+      "title": "Product Cleaning",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.5.2"
+      ]
+    },
+    {
+      "docNo": "QP-0754",
+      "title": "Servicing",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.5.4"
+      ]
+    },
+    {
+      "docNo": "QP-0756",
+      "title": "Process Validation",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.5.6"
+      ]
+    },
+    {
+      "docNo": "QP-0757",
+      "title": "Software Validation",
+      "version": "03",
+      "revisionDate": "",
+      "clauses": [
+        "7.5.6"
+      ]
+    },
+    {
+      "docNo": "QP-0758",
+      "title": "Identification, UDI and Traceability",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.5.8",
+        "7.5.9"
+      ]
+    },
+    {
+      "docNo": "QP-0760",
+      "title": "Customer Property",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.5.10"
+      ]
+    },
+    {
+      "docNo": "QP-0760C",
+      "title": "Calibration of Measuring Equipment",
+      "version": "03",
+      "revisionDate": "2024-02-01",
+      "clauses": [
+        "7.6"
+      ]
+    },
+    {
+      "docNo": "QP-0761",
+      "title": "Handling, Storage and Delivery",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "7.5.11"
+      ]
+    },
+    {
+      "docNo": "QP-0821",
+      "title": "Customer Feedback and Post-Market Surveillance",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "8.2.1"
+      ]
+    },
+    {
+      "docNo": "QP-0822",
+      "title": "Complaint Handling",
+      "version": "03",
+      "revisionDate": "2024-02-01",
+      "clauses": [
+        "8.2.2"
+      ]
+    },
+    {
+      "docNo": "QP-0823",
+      "title": "Vigilance and Adverse Event Reporting",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "8.2.3"
+      ]
+    },
+    {
+      "docNo": "QP-0824",
+      "title": "Internal Audit",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "8.2.4"
+      ]
+    },
+    {
+      "docNo": "QP-0826",
+      "title": "Inspection and Release",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "8.2.6"
+      ]
+    },
+    {
+      "docNo": "QP-0830",
+      "title": "Control of Nonconforming Product",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "8.3"
+      ]
+    },
+    {
+      "docNo": "QP-0840",
+      "title": "Data Analysis",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "8.4"
+      ]
+    },
+    {
+      "docNo": "QP-0852",
+      "title": "CAPA",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "8.5"
+      ]
+    },
+    {
+      "docNo": "WI-0810",
+      "title": "Statistical Techniques",
+      "version": "",
+      "revisionDate": "",
+      "clauses": [
+        "8.1"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "clause": "7.5.5",
+      "where": "QM 4.2.2 Quality manual",
+      "text": "This manual. Exclusions: 7.5.5 is not applicable because products are non-sterile."
+    },
+    {
+      "clause": "7.5.3",
+      "where": "QM 7.5.3 Installation activities",
+      "text": "Not applicable – no installation."
+    }
+  ]
+}
